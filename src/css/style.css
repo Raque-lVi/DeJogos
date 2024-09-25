@@ -1,0 +1,188 @@
+
+:root{
+    --color_principal: #fdadcd;
+    --color_escura: #461f36;
+    --color_destaque: #d10054;
+    --color_secundaria: #709bd1;
+    --color_escura_secundaria: #1a3950;
+}
+
+body{
+    background-color:#ffffff ;
+    overflow-x: hidden;
+}
+img{
+    width: calc(150vh + 100px);
+    cursor: pointer;
+}
+
+.fundo{
+    position: absolute;
+    background-color: var(--color_principal);
+    width: 100%;
+    z-index: -1;
+    padding-left: 20%;
+}
+
+.p{
+    color: white;
+    font-size: 60px; 
+    
+}
+
+
+
+.cabecalho{
+    background-color: var(--color_principal);
+    padding: 2vw;
+    /*altura  , direita, baixo , esquerda*/
+}
+
+.cabecalho .botoes-menu{
+
+    display: flex; 
+    align-items: center;
+    height: 100%;
+    float: right;
+}
+.cabecalho nav ul li a{
+    
+    font-weight: 700; /*negrito*/
+    padding: 10px 20px;
+    background-color: var(--color_principal);
+    color: var(--color_escura);
+    font-size: 19px; /*tamanho da letra*/
+    border-radius: 50px; /*aredondar bordas*/
+    border: solid 2px var(--color_destaque);
+    
+    
+}
+
+.cabecalho nav ul li a:hover{
+
+    background-color: var(--color_escura);
+    color: var(--color_principal);
+    cursor: pointer;/*maosinha ao se aprosimar do botao*/
+    transform: scale(1.1);
+    transition: 0.8s all ease-in-out;/*animação sinha*/
+    border: solid 2px white;
+}
+
+
+
+
+/*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*/
+/*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*/
+/*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*//*Carrossel*/
+
+.carrossel{
+    
+    
+    background-color: #fdadcd;
+}
+.coisa{
+    margin-top: 45vh;
+}
+.titulo{
+    
+    background-color: var(--color_destaque);
+    color: white;
+    padding: 2vw;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 35px;
+    margin: 2%;
+
+
+}
+
+.div_carrossel{
+
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.img_carrossel{
+    width: 50vh;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+
+.img_carrossel:hover{
+    transform: scale(1.05);
+    transition: 0.8s all ease-in-out;/*animação sinha*/
+}
+
+
+
+
+/*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*/
+/*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*/
+/*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*//*Footer*/
+
+
+footer{
+    margin-top: 9vw;
+    background-color: var(--color_principal);
+    color:var(--color_destaque);
+    
+}
+
+.footer_ul{
+    display: flex;
+    padding-top: 2%;
+
+}
+footer ul{
+    margin-right: 45%;
+    margin-left: 45%;
+    
+}
+
+footer ul li{
+    margin: 10%;
+    
+}
+#footer_i{
+    
+    font-size: 30px;
+    color:var(--color_destaque);
+}
+
+#footer_i:hover{
+    
+    font-size: 30px;
+    color:var(--color_escura);
+    
+}
+.developer{
+    padding-top: 2%;
+}
+.developer:hover{
+    color: var(--cor_principal);
+}
+
+
+
+
+
+/*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos */
+/*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos */
+/*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos *//*pagina de jogos */
+
+
+
+
+.paraJogar{
+    background-color: var(--color_escura);
+
+    width: 80%;
+    margin-top: 5%;
+    padding: 10%;
+
+}
